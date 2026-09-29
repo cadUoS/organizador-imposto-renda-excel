@@ -1,99 +1,149 @@
-🧾 Organizador de Imposto de Renda no Excel
-📊 Slv - Imposto de Renda
+# 🧾 SLV Imposto de Renda - Organizador
 
-📌 Sobre o projeto
+<div align="center">
 
-Projeto desenvolvido durante um desafio da Digital Innovation One (DIO) com o objetivo de criar uma ferramenta em Excel para auxiliar na organização e centralização de informações importantes para a declaração do Imposto de Renda.
+<img src="images/Slv_Imp_Renda_Logo.png" width="180">
 
-A solução foi desenvolvida buscando proporcionar uma experiência simples e organizada, permitindo o cadastro e gerenciamento das informações necessárias por meio de uma interface prática.
+### Organizador de informações para a Declaração do Imposto de Renda
 
-🎯 Objetivos
-Organizar informações relacionadas à declaração do Imposto de Renda;
-Centralizar os dados em uma única ferramenta;
-Facilitar o preenchimento e a consulta das informações;
-Aplicar recursos de validação de dados no Excel;
-Criar menus e mecanismos de navegação;
-Utilizar links rápidos para facilitar o acesso às diferentes áreas da ferramenta;
-Desenvolver uma interface simples e intuitiva.
+</div>
 
-🛠️ Tecnologias e recursos utilizados
-Microsoft Excel
-Tabelas e formatação de dados
-Validação de dados
-Fórmulas do Excel
-Menus de navegação
-Links e hiperlinks
-Organização e estruturação de informações
-Formatação condicional
+---
 
-📂 Estrutura do projeto
-📁 organizador-imposto-renda-excel
+## 📌 Sobre o Projeto
+
+O **SLV Imposto de Renda - Organizador** é uma ferramenta desenvolvida em **Microsoft Excel** com o objetivo de auxiliar na organização e centralização de informações relacionadas à declaração do Imposto de Renda.
+
+A ferramenta foi desenvolvida com uma interface simples e intuitiva, permitindo que diferentes informações sejam registradas e organizadas em um único local.
+
+O projeto utiliza recursos do Excel como **validação de dados, fórmulas, organização de informações, menus de navegação e elementos visuais**, buscando proporcionar uma experiência mais prática durante o preenchimento.
+
+---
+
+## 🎯 Objetivo
+
+O principal objetivo do projeto é criar uma ferramenta que facilite o processo de organização das informações que podem ser necessárias durante a preparação da declaração do Imposto de Renda.
+
+A solução busca:
+
+- 📋 Centralizar informações importantes;
+- 🗂️ Organizar os dados de forma estruturada;
+- ✅ Utilizar validações para auxiliar no preenchimento;
+- 🔗 Facilitar a navegação entre as áreas da planilha;
+- 📊 Tornar a consulta das informações mais prática;
+- 💻 Aplicar conhecimentos de Excel em um projeto prático;
+- 📚 Documentar o desenvolvimento utilizando GitHub.
+
+---
+
+# 🚀 Como utilizar
+
+A ferramenta foi estruturada para que o usuário possa seguir um fluxo simples de preenchimento.
+
+## 1️⃣ Acessando o Menu
+
+Ao abrir a planilha, o usuário encontra o **Menu Principal**, que funciona como ponto de navegação para as diferentes áreas do projeto.
+
+Por meio do menu, é possível acessar as áreas disponíveis na ferramenta sem a necessidade de procurar manualmente cada seção da planilha.
+
+### Menu Principal
+
+![Menu Principal](images/Menu.png)
+
+---
+
+## 2️⃣ Preenchendo os Dados do Titular
+
+O primeiro passo é preencher as informações relacionadas ao **titular**.
+
+Nesta etapa, devem ser inseridas as informações solicitadas pela ferramenta, mantendo os dados organizados e preenchidos corretamente.
+
+A área foi estruturada para facilitar a identificação das informações e tornar o preenchimento mais intuitivo.
+
+### Dados do Titular
+
+![Dados do Titular](images/Dados_Titular.png)
+
+---
+
+## 3️⃣ Registrando os Informes de Rendimentos
+
+Após o preenchimento dos dados do titular, o usuário pode registrar as informações relacionadas aos **Informes de Rendimentos**.
+
+Essa etapa permite centralizar as informações recebidas das fontes pagadoras, facilitando posteriormente a consulta e organização dos dados.
+
+### Informes de Rendimentos
+
+![Informes de Rendimentos](images/Informes_Rendimento.png)
+
+---
+
+## 4️⃣ Registrando as Notas Bancárias
+
+A ferramenta também possui uma área destinada ao registro e organização das **Notas Bancárias**.
+
+O objetivo dessa etapa é manter as informações organizadas dentro da própria ferramenta, facilitando a consulta dos dados posteriormente.
+
+### Notas Bancárias
+
+![Notas Bancárias](images/Notas_Bancarias.png)
+
+---
+
+## 5️⃣ Conferindo as informações
+
+Após realizar os preenchimentos, recomenda-se revisar as informações cadastradas.
+
+A conferência permite identificar possíveis erros de preenchimento e verificar se os dados necessários foram registrados corretamente.
+
+O menu de navegação pode ser utilizado para retornar às diferentes áreas da ferramenta sempre que necessário.
+
+---
+
+# ⚙️ Funcionalidades
+
+Entre os principais recursos presentes no projeto estão:
+
+- 🏠 Menu de navegação;
+- 👤 Cadastro de informações do titular;
+- 💰 Organização de informes de rendimentos;
+- 🏦 Organização de informações bancárias;
+- ✅ Validação de dados;
+- 🔗 Links e atalhos de navegação;
+- 📊 Estruturação e organização das informações;
+- 🎨 Interface personalizada;
+- 📋 Centralização das informações em uma única ferramenta.
+
+---
+
+# 🛠️ Tecnologias e Recursos
+
+O projeto foi desenvolvido utilizando:
+
+- **Microsoft Excel**
+- Fórmulas e funções;
+- Validação de dados;
+- Formatação de células;
+- Formatação condicional;
+- Hiperlinks;
+- Menus de navegação;
+- Organização de tabelas;
+- Recursos de interface e formatação visual.
+
+---
+
+# 📂 Estrutura do Repositório
+
+```text
+SLV-Imposto-de-Renda-Organizador/
 │
-├── 📄 README.md
+├── 📁 images/
+│   ├── Dados_Titular.png
+│   ├── Informes_Rendimento.png
+│   ├── Menu.png
+│   ├── Notas_Bancarias.png
+│   └── Slv_Imp_Renda_Logo.png
 │
-└── 📁 images
-│    ├── 🖼️ tela-inicial.png
-│    ├── 🖼️ titular.png
-│    ├── 🖼️ informes.png
-│    └── 🖼️ notas.png
+├── 📊 Slv_Imposto_de_Renda.xlsx
 │
-└── 📊Slv_Imposto_de_Renda.xlsx
-
-A ferramenta desenvolvida possui recursos para auxiliar na organização das informações utilizadas na declaração do Imposto de Renda.
-
-Entre os principais recursos estão:
-
-Cadastro e organização das informações do titular;
-Registro de informações financeiras;
-Organização de informes;
-Controle de informações relevantes para a declaração;
-Validação de dados para reduzir erros de preenchimento;
-Navegação entre as diferentes áreas da planilha;
-Links rápidos para facilitar a utilização da ferramenta;
-Interface estruturada para facilitar a visualização dos dados.
-
-🖥️ Demonstração
-Tela inicial
-
-
-
-
-Cadastro do titular
-
-
-
-
-Informes
-
-
-
-
-Notas
-
-
-
-
-📚 Aprendizados
-
-Durante o desenvolvimento deste projeto, foi possível colocar em prática conhecimentos relacionados à criação e organização de planilhas no Excel.
-
-Entre os principais aprendizados estão:
-
-Estruturação de uma ferramenta utilizando Excel;
-Utilização de validação de dados;
-Organização e padronização de informações;
-Criação de mecanismos de navegação;
-Utilização de fórmulas e recursos do Excel;
-Desenvolvimento de uma interface mais amigável;
-Documentação de projetos utilizando Markdown;
-Utilização do GitHub para armazenamento e compartilhamento de projetos.
-🚀 Desafio DIO
-
-Este projeto foi desenvolvido como parte de um desafio da Digital Innovation One (DIO), com o objetivo de aplicar na prática os conhecimentos apresentados durante o curso.
-
-👨‍💻 Autor
-
-Eduardo Silva
-
-Projeto desenvolvido para fins de estudo e demonstração de conhecimentos em Excel e documentação técnica.
-
+└── 📄 README.md
